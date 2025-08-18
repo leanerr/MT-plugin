@@ -1,0 +1,40 @@
+{
+  "mutation": {
+    "new": "comment_inserted",
+    "file": "src/main/java/demo/App.java",
+    "old": "comment",
+    "changed": true
+  },
+  "mutated_build": {
+    "stderr_head": "",
+    "success": true,
+    "exitCode": 0,
+    "cmd": [
+      "gradle",
+      "--no-daemon",
+      "clean",
+      "build",
+      "-x",
+      "test"
+    ],
+    "stdout_head": "To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.0.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.\nDaemon will be stopped at the end of the build \n> Task :clean\n> Task :compileJava\n> Task :processResources NO-SOURCE\n> Task :classes\n> Task :jar\n> Task :startScripts\n> Task :distTar\n> Task :distZip\n> Task :assemble\n> Task :check\n> Task :build\n\nBUILD SUCCESSFUL in 2s\n6 actionable tasks: 6 executed\nConsider enabling configuration cache to speed up this build: https://docs.gradle.org/9.0.0/userguide/configuration_cache_enabling.html\n"
+  },
+  "target_file": "src/main/java/demo/App.java",
+  "baseline_build": {
+    "stderr_head": "",
+    "success": true,
+    "exitCode": 0,
+    "cmd": [
+      "gradle",
+      "--no-daemon",
+      "clean",
+      "build",
+      "-x",
+      "test"
+    ],
+    "stdout_head": "To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.0.0/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.\nDaemon will be stopped at the end of the build \n> Task :clean\n> Task :compileJava\n> Task :processResources NO-SOURCE\n> Task :classes\n> Task :jar\n> Task :startScripts\n> Task :distTar\n> Task :distZip\n> Task :assemble\n> Task :check\n> Task :build\n\nBUILD SUCCESSFUL in 2s\n6 actionable tasks: 6 executed\nConsider enabling configuration cache to speed up this build: https://docs.gradle.org/9.0.0/userguide/configuration_cache_enabling.html\n"
+  },
+  "repo": "/Users/aliasgari/IdeaProjects/MT-plugin/fixtures/java-hello",
+  "language": "java",
+  "operation": "insert-comment"
+}
