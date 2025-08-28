@@ -155,6 +155,7 @@ Example: rename **parameter** at index `2` in `App.java`:
 ## 🧩 IntelliJ Plugin Usage
 
 MT-plugin is also packaged as an **IntelliJ IDEA plugin**.
+	The IntelliJ plugin is a wrapper/host: it gives you a UI tool window in IDEA, and when you click “Run Mutation” it calls the same mutators and SweAgentRunner.
 
 ### ▶️ Run in IntelliJ
 1. Open this project in **IntelliJ IDEA (Community or Ultimate)**.
